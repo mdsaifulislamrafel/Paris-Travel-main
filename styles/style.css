@@ -1,0 +1,638 @@
+/* google font  */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Mulish', sans-serif;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+/* reused styles */
+
+section {
+    width: 80%;
+    margin: auto;
+    padding: 10rem 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn-primary {
+    background-color: #FF5400;
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 700;
+    padding: 1.6rem;
+    border: none;
+    border-radius: 0.8rem;
+    width: 17.4rem;
+    cursor: pointer;
+}
+
+
+/* header section start */
+header {
+    width: 80%;
+    margin: auto;
+    padding: 5.2rem 0;
+}
+
+.nav-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    min-width: 350px;
+    display: flex;
+    align-items: center;
+}
+
+
+.logo h2 {
+    color: #131318;
+    font-size: 3.6rem;
+    font-weight: 800;
+}
+
+.logo h2 span {
+    color: #FF5400;
+}
+
+.menu-area {
+    list-style: none;
+    display: flex;
+
+}
+
+.nav-area li a {
+    color: #424247;
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin-left: 20px;
+}
+
+.nav-area li a.active {
+    color: #FF5400;
+}
+
+.nav-area li a:hover {
+    color: #FF5400;
+}
+
+.nav-bar {
+    display: none;
+
+}
+
+.nav-bar span i {
+    font-size: 1.8rem;
+    color: #131318;
+    cursor: pointer;
+}
+
+/* header section end */
+
+/* Travel section styles start */
+.travel-section {
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url("/Images/Group-13.png");
+    border-radius: 1.6rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+
+.travel-content {
+    padding: 10rem 18.5rem;
+}
+
+.travel-content h1 {
+    font-size: 6.4rem;
+    font-weight: 800;
+    margin-bottom: 2.4rem;
+}
+
+.travel-content p {
+    font-size: 1.6rem;
+    width: 67.6rem;
+    font-weight: 400;
+    line-height: 2.6rem;
+    margin: auto;
+    margin-bottom: 8rem;
+}
+
+.travel-input {
+    border-radius: 0.8rem;
+    background: rgba(255, 255, 255, 0.30);
+    padding: 1.6rem;
+}
+
+.input {
+    padding: 1.6rem;
+    margin-right: 2.4rem;
+    border: none;
+    border-radius: 0.8rem;
+    width: 17.4rem;
+}
+
+.input-btn {}
+
+/* Travel section styles end */
+
+/* Popular section styles start */
+
+.popular-section {
+    display: flex;
+    gap: 5.3rem;
+}
+
+.popular-title {
+    color: #131318;
+    font-size: 4rem;
+    font-weight: 800;
+    margin-bottom: 2.4rem;
+}
+
+.popular-description {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.6rem;
+}
+
+.popular-list {
+    padding: 2.4rem;
+}
+
+.popular-list>li {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.6rem;
+    padding: 0.5rem 0;
+}
+
+.popular-info {
+    color: #5A5A5D;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.6rem;
+    margin-bottom: 3.2rem;
+}
+
+/* Popular section styles end */
+
+/* Destination section styles start */
+
+.destination-container {
+    width: 64.3rem;
+    text-align: center;
+    margin: auto;
+}
+
+.destination-title {
+    color: #131318;
+    font-size: 4rem;
+    font-weight: 800;
+    margin-bottom: 2.4rem;
+}
+
+.destination-description {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.6rem;
+    margin-bottom: 4.8rem;
+}
+
+.row {
+    display: flex;
+    gap: 2.4rem;
+    margin-bottom: 2.4rem;
+}
+
+.box {
+    position: relative;
+}
+
+.box>img {
+    width: 100%;
+}
+
+.box .text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    font-size: 2.8rem;
+    font-weight: 800;
+}
+
+/* Destination section styles end */
+
+/* Choose section styles start */
+
+.choose-container {
+    width: 64.3rem;
+    margin: auto;
+    text-align: center;
+}
+
+.choose-container h2 {
+    color: #131318;
+    font-size: 4rem;
+    font-weight: 800;
+    margin-bottom: 2.4rem;
+}
+
+.choose-container p {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.6rem;
+    margin-bottom: 4.8rem;
+}
+
+
+.choose-content {
+    display: flex;
+    gap: 2.4rem;
+}
+
+.choose-item {
+    width: 57.3rem;
+    border-radius: 1.6rem;
+    border: 0.1rem solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 3.2rem;
+}
+
+.choose-item-color {
+    border: 0.1rem solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+
+.choose-title {
+    color: #131318;
+    font-size: 2.4rem;
+    font-weight: 800;
+    margin-top: 3.2rem;
+}
+
+.choose-description {
+    color: #5A5A5D;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.6rem;
+}
+
+.choose {
+    width: 57.3rem;
+    height: 28.4rem;
+    margin-left: 30%;
+    margin-top: 2.4rem;
+}
+
+/* Choose section styles end */
+
+
+/* Discounts section styles start */
+
+
+.discount-header {
+    width: 64.3rem;
+    margin: auto;
+    text-align: center;
+}
+
+.discount-header h1 {
+    color: #131318;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+
+}
+
+.discount-header p {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.6rem;
+}
+
+.discount-card {
+    width: 100%;
+    height: 400px;
+    margin: 2rem 0;
+    border-radius: 1rem;
+    background-image: url('/Images/Group-39.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.discount-content {
+    width: 50%;
+    height: 80%;
+    border-radius: 1rem;
+    background-color: rgba(255, 255, 255, 0.8);
+    position: absolute;
+    top: 0;
+    right: 6rem;
+    bottom: 0;
+    margin: auto;
+    padding: 2rem;
+}
+
+.card-2 {
+    right: 53rem;
+
+}
+
+.discount-card2 {
+    width: 100%;
+    height: 400px;
+    margin: 2rem 0;
+    border-radius: 1rem;
+    background-image: url('/Images/Group-40.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+
+}
+
+.discount-content ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    align-items: center;
+}
+
+.discount-content ul li {
+    color: #5A5A5D;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.discount-content ul li>span {
+    color: #FF5400;
+}
+
+.discount-content h3 {
+    color: #131318;
+    font-size: 2.4rem;
+    font-weight: 800;
+    margin-top: 2.4rem;
+}
+
+.discount-content p {
+    color: #5A5A5D;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.6rem;
+    margin-top: 1.6rem;
+}
+
+.discount-content .card-price {
+    color: #FF5400;
+    font-size: 2rem;
+    font-weight: 800;
+    margin-top: 1.6rem;
+}
+
+.btn-card {
+    color: #FFF;
+    font-size: 2rem;
+    font-weight: 800;
+    border-radius: 0.8rem;
+    background: #FF5400;
+    border: 0;
+    padding: 1.4rem;
+    margin-top: 2.4rem;
+}
+
+.btn-discount {
+    text-align: center;
+}
+
+/* Discounts section styles end */
+
+/* Simple Perfect Place section styles start */
+.place-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.place-container h2 {
+    width: 44.8rem;
+    color: #131318;
+    font-size: 4rem;
+    font-weight: 800;
+    line-height: 6rem;
+}
+
+.place-container p {
+    color: #5A5A5D;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.6rem;
+    margin-top: 2.4rem;
+}
+
+.place-container .place-list {
+    margin-bottom: 3.2rem;
+}
+
+.place-container .place-list>li {
+    color: #131318;
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 2.6rem;
+    margin-top: 1.6rem;
+}
+
+.place-img {
+    position: relative;
+}
+
+.place-img video {
+    width: 100%;
+    border-radius: 1.6rem;
+}
+
+.place-name {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 3.6rem;
+    text-align: center;
+}
+
+/* Simple Perfect Place section styles end */
+
+/* Newsletter section styles start */
+.newsletter-section {
+    display: flex;
+    justify-content: space-between;
+    gap: 2.4rem;
+}
+
+.form-container {
+    border-radius: 1.6rem;
+    border: 1px solid #FF5400;
+    padding: 5rem;
+    height: 42.2rem;
+}
+
+
+.news-title {
+    color: #131318;
+    font-size: 2.4rem;
+    font-weight: 800;
+    margin-bottom: 1.6rem;
+}
+
+.news-description {
+    color: #5A5A5D;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.6rem;
+    margin-bottom: 2.8rem;
+}
+
+.form-container input[type=text],
+input[type=email],
+.btn-subscribe {
+    width: 100%;
+    padding: 1.6rem;
+    border: 0;
+    border-radius: 8px;
+    margin-top: 1.6rem;
+    background: rgba(19, 19, 24, 0.05);
+}
+
+.btn-subscribe {
+    background: #FF5400;
+    color: #fff;
+}
+
+.image-text {
+    position: relative;
+    left: 50%;
+    bottom: 32%;
+    background: #FF5400;
+    border-radius: 1.6rem;
+    width: 32.4rem;
+    height: 12rem;
+    text-align: center;
+    color: #fff;
+    padding: 2rem;
+    transform: rotate(-20deg);
+}
+
+.image-text p {
+    font-size: 2.4rem;
+    font-weight: 400;
+}
+
+.image-text h4 {
+    font-size: 32px;
+    font-weight: 800;
+}
+
+/* Newsletter section styles end */
+
+/* location section styles start */
+.location-container {
+    text-align: center;
+}
+
+.location-area>h1 {
+    font-size: 4rem;
+    color: #131318;
+    font-weight: 800;
+    margin-bottom: 2rem;
+
+}
+
+.location-area>p {
+    font-size: 2rem;
+    color: #131318;
+    font-weight: 800;
+    margin-bottom: 2rem;
+}
+
+.location-area iframe {
+    width: 100%;
+    border-radius: 1rem;
+}
+
+/* location section styles end */
+
+/* footer section styles start */
+.footer-container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 11rem;
+}
+
+.footer-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.6rem;
+    margin-bottom: 1.5rem;
+}
+
+.footer-logo p {
+    color: #131318;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.footer-logo p>span {
+    color: #FF5400;
+}
+
+.footer-description {
+    width: 76.9rem;
+    margin: auto;
+    text-align: center;
+    color: #5A5A5D;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.6rem;
+    margin-bottom: 3.3rem;
+}
+
+.social-link {
+    margin-bottom: 7.3rem;
+}
+
+.footer-container>p {
+    color: #131318;
+    font-size: 1.6rem;
+    font-weight: 300;
+    margin-top: 5rem;
+}
+
+/* footer section styles end */
