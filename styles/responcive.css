@@ -1,7 +1,7 @@
 @media screen and (max-width: 576px) {
     section {
         width: 90%;
-        padding: 3rem 0;
+        padding: 2rem 0;
     }
 
     header {
@@ -216,7 +216,7 @@
 @media screen and (min-width: 576px) and (max-width: 990px) {
     section {
         width: 90%;
-        padding: 3rem 0;
+        padding: 2rem 0;
     }
 
     header {
@@ -367,4 +367,163 @@
     }
 
 
+}
+
+
+@media screen and (min-width: 990px) and (max-width: 1440px) {
+
+    section {
+        width: 90%;
+        padding: 2rem 0;
+    }
+
+    header {
+        width: 90%;
+        padding: 4rem 0;
+    }
+
+    .travel-content {
+        padding: 4rem;
+    }
+
+    .travel-content h1 {
+        font-size: 4rem;
+    }
+
+    .travel-content p {
+        width: 100%;
+        font-size: 2rem;
+        margin-bottom: 4rem;
+        font-weight: 400;
+    }
+
+    .travel-input,
+    .input,
+    .input-btn {
+        margin-bottom: 1.6rem;
+    }
+
+    .input-btn {
+        margin-bottom: 0;
+    }
+
+    .popular-section,
+    .row,
+    .choose-content,
+    .newsletter-section,
+    .place-section {
+        flex-direction: column;
+    }
+
+    .popular-img img {
+        width: 100%;
+    }
+
+    .destination-container {
+        width: 100%;
+    }
+
+    .destination-title {
+        font-size: 4rem;
+    }
+
+    .destination-description {
+        font-size: 2rem;
+        line-height: 3rem;
+    }
+
+    .choose-container,
+    .choose-item {
+        width: 100%;
+    }
+
+    .choose {
+        margin-left: 0;
+    }
+
+    .form-img img {
+        width: 100%;
+    }
+
+    .image-text {
+        left: 70%;
+        bottom: 12rem;
+        width: 23.4rem;
+        height: 7.9rem;
+        padding: 1rem;
+    }
+
+    .image-text p {
+        font-size: 1.5rem;
+    }
+
+    .image-text h4 {
+        font-size: 2rem;
+    }
+
+    .box .text {
+        font-size: 6rem;
+    }
+
+    .discount-header {
+        width: 100%;
+    }
+
+    .discounts-area h1 {
+        font-size: 3rem;
+        font-weight: 400;
+
+    }
+
+    .discounts-area p {
+        font-size: 1.2rem;
+        font-weight: 200;
+    }
+
+    .discount-content {
+        width: 90%;
+        height: 75%;
+        left: 0;
+        right: 0;
+        top: 15%;
+
+    }
+
+    .discount-content h3 {
+        font-size: 2rem;
+        margin-top: 2rem;
+    }
+
+    .discount-content p {
+        font-size: 1.4rem;
+        margin-top: 2rem;
+        line-height: 2.4rem;
+    }
+
+    .discount-content .card-price {
+        font-size: 1.6rem;
+        margin-top: 1rem;
+    }
+
+    .btn-card {
+        margin-top: 2rem;
+    }
+
+    .card-2 {
+        right: 0;
+
+    }
+
+    .place-container h2,
+    .place-img img,
+    .place-name {
+        width: 100%;
+        margin-top: 3rem;
+    }
+
+    .place-img video {
+        margin-top: 2rem;
+    }
+
+    
 }
